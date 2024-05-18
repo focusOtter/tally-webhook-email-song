@@ -11,7 +11,7 @@ function Footer() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Focus Otter
+						Focus Otter🦦
 					</a>
 				</p>
 			</aside>
