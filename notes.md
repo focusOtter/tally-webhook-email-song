@@ -147,3 +147,13 @@ It worked :)
 All that's left from here is to clean up the code and make the UI pretty. I'll likely add Tailwind and DaisyUI in addition to moving some of the backend code into their own files.
 
 Thanks for following along!
+
+## Moving to Prod
+
+I was wondering what the experience would be like making this a real thing. My AWS account is in the sandbox so I can send emails to everyone. It's a pretty healthy account and has my focusotter.com domain on it for my site and email so I simply requested prod access and gave the reason that I'm a content creator🤷‍♂️
+
+Regarding Amplify, I had to remind myself that the sandbox is just that...and ephemeral space. So I pushed my app to GitHub, added back in my envvars, and added my secret. I made sure to give them all the same names.
+
+One thing is that my function URL is going to be newly generated and I had to put my song in the bucket. Fortunately, Amplify's hosting console has file management. The Lambda console also let's me see my envVars and cloudwatch logs 😮. I had to click on the link to the Lambda console to get the function URL, but once I got that, I went over to Tally and updated my form to use my new lambda url. This didn't require me to update my secret 👌
+
+From there, I tested out my site and everything still worked. Hopefull I get prod access soon so everyone can test this out!
