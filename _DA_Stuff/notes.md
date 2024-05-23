@@ -156,4 +156,4 @@ Regarding Amplify, I had to remind myself that the sandbox is just that...and ep
 
 One thing is that my function URL is going to be newly generated and I had to put my song in the bucket. Fortunately, Amplify's hosting console has file management. The Lambda console also let's me see my envVars and cloudwatch logs 😮. I had to click on the link to the Lambda console to get the function URL, but once I got that, I went over to Tally and updated my form to use my new lambda url. This didn't require me to update my secret 👌
 
-From there, I tested out my site and everything still worked. Hopefull I get prod access soon so everyone can test this out!
+From there, I tested out my site and everything still worked. Hopefully I get prod access soon so everyone can test this out!
