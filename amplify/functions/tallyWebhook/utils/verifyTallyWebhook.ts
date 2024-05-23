@@ -17,7 +17,6 @@ export const verifyTallyWebhook = async (
 		.update(webhookPayload)
 		.digest('base64')
 
-	console.log('the calc sig', calculatedSignature)
 	// Compare the received signature with the calculated signature
 	if (receivedSignature === calculatedSignature) {
 		// Signature is valid, process the webhook payload
