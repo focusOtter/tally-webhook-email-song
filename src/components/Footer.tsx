@@ -5,6 +5,7 @@ function Footer() {
 				<p>
 					Copyright © 2024 - Made with ❤️ by{' '}
 					<a
+						className="link"
 						href="http://focusotter.com"
 						target="_blank"
 						rel="noopener noreferrer"

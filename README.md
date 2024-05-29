@@ -28,3 +28,7 @@ The backend contains the following AWS Services:
   3. The item is emailed to the customer using Amazon SES
 
 > 🗒️ To prevent spam, Amazon places all SES accounts in sandbox mode. This means you can only send to verfied email addresses.
+
+## Contributing
+
+While this app is relatively simple, if there are certain features or fixes you'd like to see implemented, feel free to file an issue before submitting a PR 🦦

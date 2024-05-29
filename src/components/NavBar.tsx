@@ -24,7 +24,13 @@ function NavBar() {
 									<a>Blog (TBD)</a>
 								</li>
 								<li>
-									<a>Video (TBD)</a>
+									<a
+										href="https://www.youtube.com/watch?v=RJudDFYmv84"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Video
+									</a>
 								</li>
 							</ul>
 						</details>
